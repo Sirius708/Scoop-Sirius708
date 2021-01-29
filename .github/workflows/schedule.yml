@@ -15,4 +15,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: '1'
           SCOOP_BRANCH: 'NEW'
-          SHOVEL: '0'
+          SHOVEL: '1'
