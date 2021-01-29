@@ -1,0 +1,15 @@
+on:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  excavate:
+    runs-on: windows-latest
+    name: Excavate
+    steps:
+      - uses: actions/checkout@main
+      - name: Excavate
+        uses: Ash258/Scoop-GithubActions@stable-win
+        env:
+          GITH_EMAIL: jan.krueger.dev@outlook.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: '1'
