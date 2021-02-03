@@ -1,10 +1,10 @@
 {
-    "version": "4.2.4.27-beta",
+    "version": "4.2.5.28-beta",
     "homepage": "https://github.com/Artentus/ModMyFactory2",
     "description": "Rewrite of ModMyFactory, the Factorio mod manager",
     "license": "GPL-3.0",
-    "url": "https://github.com/Artentus/ModMyFactory2/releases/download/4.2.4.27-beta/4.2.4.27-beta_win64.zip",
-    "hash": "86a1052fdc63bd268478890961ca96b5fb20cdae3d349e0edf3dca0576d6a863",
+    "url": "https://github.com/Artentus/ModMyFactory2/releases/download/4.2.5.28-beta/4.2.5.28-beta_win64.zip",
+    "hash": "ad3c11b22bab1e99ee39516586c5d41bda78b0fe2b681a40e36397ba3cf16120",
     "bin": [
         [
             "ModMyFactoryGUI.exe",
