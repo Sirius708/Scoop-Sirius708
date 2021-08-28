@@ -1,12 +1,12 @@
 {
-    "version": "1.1.24",
+    "version": "1.1.25",
     "description": "Simple Beat Saber Mod Installer",
     "homepage": "https://github.com/Assistant/ModAssistant",
     "checkver": "github",
     "license": "MIT",
-    "url": "https://github.com/Assistant/ModAssistant/releases/download/v1.1.24/ModAssistant.exe",
+    "url": "https://github.com/Assistant/ModAssistant/releases/download/v1.1.25/ModAssistant.exe",
     "bin": "ModAssistant.exe",
-    "hash": "5c08b02c87b937361e0edf56d75d8c3e0b676bba8be8b47f5a8e01117e04cf49",
+    "hash": "78c045295ee35b9152e173ae81ef7ab4cabd62bb91b7ccba627a60779d51e72c",
     "shortcuts": [
         [
             "ModAssistant.exe",
