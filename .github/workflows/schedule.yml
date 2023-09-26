@@ -5,14 +5,12 @@ on:
 jobs:
   excavate:
     runs-on: windows-latest
-    name: Excavate
+    name: Excavator
     steps:
       - uses: actions/checkout@main
-      - name: Excavate
-        uses: Ash258/Scoop-GithubActions@stable-win
+      - name: Excavator
+        uses: shovel-org/GithubActions@main
         env:
           GITH_EMAIL: jan.krueger.dev@outlook.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: '1'
-          SCOOP_BRANCH: 'NEW'
-          SHOVEL: '1'
